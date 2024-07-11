@@ -1,0 +1,75 @@
+.body{
+    background-image: url('');
+   display: flex;
+   justify-content: center;
+    background-position: center;
+    image-orientation: from-image;
+    background-color: rgb(110, 220, 236);
+image-rendering: optimizeQuality;
+width: 100%;
+    
+    
+}
+.form{
+    border: none;
+    width: fit-content; 
+    height: fit-content;
+   margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1px;
+    border-radius: 25px;
+   
+    text-align: center;
+    background-color: rgb(239, 9, 227);
+    color: rgb(4, 4, 4);
+ font-size: small;
+   box-shadow: 10px 10px 10px black;  
+
+}
+.form h2,input,select,option,text,legend,fieldset,textarea{
+    border: none;
+    padding: 3px;
+    border-radius: 10px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    
+}
+.form button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ff{
+    border: none;
+}
+.tt{
+   min-width: 400px;
+   min-height: 75px;
+}
+.form2{
+    color: rgb(3, 3, 3);
+    width: fit-content;
+    height: fit-content;
+    justify-content: end;
+    display: block;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 20px;  
+    text-align: center;  
+   font-size: small; 
+  backdrop-filter: blur(5px);
+   margin-top: 5%;
+   margin-left: 5%;
+   background-color: rgb(102, 25, 245);
+   box-shadow: 10px 10px 10px black;
+   border-radius: 25px;
+}
+.form2 output{
+    background-color: rgb(252, 252, 248);
+    border-radius: 10px;
+    padding: 3px;
+    color: rgb(4, 4, 4);
+}

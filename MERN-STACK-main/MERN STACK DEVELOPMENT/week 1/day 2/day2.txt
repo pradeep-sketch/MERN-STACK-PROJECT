@@ -1,0 +1,30 @@
+LIST:
+to define the list of items mainly we can use this list to create menus.
+TYPES:
+1.ordered list
+2.unordered list
+3.datalist
+
+
+FORM VALIDATION :
+form validation is very important in the web development. to ensure that user submited data is correct completed as excute
+TYPES OF VALIDATIONS:
+1.client side validation -if occurs browser before submition and provide immediate feedback from the user 
+2.server side validation - occurs to the server after form submition to ensure more secure and reliable
+required attributes:
+pattern="[^aeiouAEIOU]+"  - its only contains without vowels(that means only consonants)
+pattern="[a-z A-Z]+" -its contain all alphabets
+pattern="[0-9]"-its contains only on number
+pattern ="[0-9]+" -its contains infinite numbers
+pattern="[0-9]{10}"-  its contains only 10 numbers 
+
+
+
+INTERVIEW QUESIONS :
+1.difference between inline and block level elements div and span tag
+2.explin about five semantic elements
+3.describe image map controls
+4.html5 tags
+5.entitys in html5
+6.relevancy of doctype.
+

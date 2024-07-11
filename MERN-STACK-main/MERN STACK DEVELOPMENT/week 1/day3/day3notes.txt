@@ -1,0 +1,35 @@
+form input attributes patter :
+pattern="[A-Z]{3}[0-9]{2}[A-Z]{3}[0-9]{3}" - its like CBE24CST506 this input format
+
+COLOR CODE PATTERN :
+#[a-f0-9A-F]{6} - its like this #ff6788 (or)#FFC890 format input.
+
+\([0-9]{3}\) [0-9]{3}-[0-9]{3}-this pattern is gives (999) 456-789 this input type attributes
+
+radio button - input type="radio"
+input type :
+text
+email
+checkbox
+password
+number
+radio
+HTML OUTPUT TAG -
+HTML VIDEO AND AUDIO 
+HTML IFRAME
+HYPERLINK
+
+ATTRIBUTES :
+type
+value
+id
+placeholder
+name
+width
+height
+style
+min,max(range , number , date)
+disable (button disabled )
+pattern
+reqired
+novalidate

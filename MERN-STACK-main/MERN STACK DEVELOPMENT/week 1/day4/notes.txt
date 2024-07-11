@@ -1,0 +1,5 @@
+css SELECTORS :
+1. id SELECTORS
+2.class SELECTORS
+3.element SELECTORS
+4.Attributes SELECTORS

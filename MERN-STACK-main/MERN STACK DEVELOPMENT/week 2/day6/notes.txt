@@ -1,0 +1,6 @@
+BOOTSTRAP:
+    
+    * bootstrap is popular frontend framework 
+
+    * building styles bg-background color
+                          

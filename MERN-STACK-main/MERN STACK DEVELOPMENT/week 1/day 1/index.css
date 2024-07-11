@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.a{
+    background-color: rgb(18, 235, 105);
+   border-radius: 50%;
+    color: rgb(18, 19, 18);
+    width: 150px;
+   height: 150px;
+   border-width: 10px;
+   border-color: rgb(15, 235, 100);
+ border-style: solid;
+ margin-left: 45%;
+ margin-top: 1%;
+text-align: center;
+animation: ranji 10s infinite;
+
+}
+@keyframes ranji{
+from{
+    left: 0px;
+}
+to{
+    right: 50px;
+}
+}
+.b{
+    padding-top: 50px;
+}
+.a:hover{
+    color: rgb(11, 11, 11);
+    background-color: rgb(240, 15, 3);
+    box-shadow: 10px 10px 10px black;
+}
+.c{
+   text-align: center;
+    width: fit-content;
+    margin-left: 40%;
+    margin-top: 2%;
+    border-style: double;
+    border-color: rgb(15, 221, 228);
+    border-radius: 5px;
+    
+    box-shadow: 8px 8px 10px black;
+    background-color: aqua;
+    
+    
+     
+}
+.c th,tr,td{
+    padding: 20px;
+    background-color: rgb(247, 244, 242);
+    border-width: 2px;
+    border-radius: 20px;
+    
+}
+.but{
+  background-color: aqua;
+  padding: 5px;
+  width: 60px;
+  border-radius: 10px;
+  border-color: rgb(10, 10, 10);
+  border-width: 4px;
+  background-color: rgb(24, 219, 21);
+  border-color: black;
+}
+.t2{
+    margin-left: 15%;
+    margin-top: -25%;
+    margin-bottom: 40px;
+    border-style: double;
+    border-color: aqua;
+    background-color: aqua;
+}
+.t2 th{
+    padding: 20px;
+    background-color: rgb(247, 244, 242);
+    border-width: 2px;
+    border-radius: 20px;
+    
+}

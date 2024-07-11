@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day10.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Day 10</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center m-2">
+        <div>
+            <div class="mb-3">
+                <label for="" class="form-label">Enter Your Color</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="color"
+                    aria-describedby="helpId"
+                   oninput="fi()"
+                />
+            </div>
+             <div class="h3" id="out"></div>
+             <div class="mb-3">
+                <label for="" class="form-label">Pattern Number</label>
+                <input
+                    type="number"
+                    class="form-control"
+                    name=""
+                    id="num"
+                    aria-describedby="helpId"
+                    placeholder="Only give below 50"
+        
+                />
+<button onclick="pat()" class="btn btn-primary m-2">star</button>
+<button onclick="rev()" class="btn btn-primary m-2">Reverse Star</button>
+<button onclick="nump()" class="btn btn-primary m-2">number</button>
+<button onclick="revnum()" class="btn btn-primary m-2">reversed Number</button>
+             </div>
+             
+             <div class="">
+                <h3 id="pattern" class="text-danger"></h3>
+             </div>
+        </div>
+    </div>
+    <script>
+        function pat(){ 
+            let str = "";
+            var num=document.getElementById("num").value
+            let n = num;
+            if(num<=50){
+            for (let i = 0; i <=n; i++) {
+            for(j=1;j<=i;j++){ 
+            str+="* "
+            }
+        str+="\n"}}
+            document.getElementById("pattern").innerText=str
+        }
+        function nump(){
+          var str="";
+          var num=document.getElementById("num").value
+          if(num<=50){
+          for(i=0; i<=num; i++) {
+            for(j=1; j<=i; j++) {
+             str+=j+" ";
+            }
+         str+="\n"
+          }}
+          document.getElementById("pattern").innerText=str
+        }
+        function rev(){
+            var str=""
+            var num=document.getElementById("num").value
+            if(num<=50){
+            for(var i=num;i>=0;i--){
+                for(var j=0;j<=i;j++){
+                    str+="* "
+                }
+                str+="\n"
+            }}
+            document.getElementById("pattern").innerText=str
+        }
+        function revnum(){
+            var str=""
+            var num=document.getElementById("num").value
+            if(num<=50){
+            for(i=num;i>=0;i--){
+                for(j=1;j<=i;j++){
+                    str+=j+" ";
+                }
+                str+="\n"
+            }}
+            document.getElementById("pattern").innerText=str
+        }
+        function fi(){ 
+document.getElementById("out").innerText=document.getElementById("color").value 
+document.getElementById("out").style.color=document.getElementById("color").value
+}
+    </script>
+</body>
+</html>
